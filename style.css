@@ -6,20 +6,23 @@ body{
 }
 .container{
     background-color: #fff;
-    height: 550px;
+    height: 650px;
     width: 500px;
     margin:200px auto;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
     border-radius: 30px;
 }
-/* h1{
-    position: relative;
-    left:-150px;
-} */
+img {
+transition: transform .3s ease;
+}
+h1:hover{
+    color: orange;
+}
 h2{
     font-weight: bold;
     font-size: 30px;
+    margin-top: 60px;
 
 }
 p{
@@ -28,6 +31,7 @@ p{
     margin: 5px 25px;
     font-size: 15px;
     color: gray;
+    line-height: 20px;
 }
 button{
     background:linear-gradient(135deg,#8a2be2,#00b7ff);
@@ -39,4 +43,10 @@ button{
     color: white;
     font-size: 15px;
     font-weight: bold;
+}
+img:hover{
+    transform: scale(1.8);
+}
+button:hover{
+    opacity: .8;
 }
